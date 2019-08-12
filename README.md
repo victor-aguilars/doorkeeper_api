@@ -4,6 +4,10 @@ Test project to integrate doorkeeper to authenticate user of a API made with rai
 
 Read the following article: https://naturaily.com/blog/api-authentication-devise-doorkeeper-setup
 
-Important links:
+Request for a token:
+
 ``` curl -X POST -d "grant_type=password&email=victor@bengala.tech&password=password" localhost:3000/oauth/token ```
+
+Request an item with the current token:
+
 ``` curl -v localhost:3000/api/items?access_token=xxT_1aNRcoVk8uuzaPBeUsmelFgyadVky1lNodgSaGg ```
