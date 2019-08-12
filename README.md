@@ -1,24 +1,9 @@
-# README
+# Add Doorkeeper to Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test project to integrate doorkeeper to authenticate user of a API made with rails
 
-Things you may want to cover:
+Read the following article: https://naturaily.com/blog/api-authentication-devise-doorkeeper-setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Important links:
+``` curl -X POST -d "grant_type=password&email=victor@bengala.tech&password=password" localhost:3000/oauth/token ```
+``` curl -v localhost:3000/api/items?access_token=xxT_1aNRcoVk8uuzaPBeUsmelFgyadVky1lNodgSaGg ```
